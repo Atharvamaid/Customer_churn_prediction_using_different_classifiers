@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to left, #0073e6,#00b3b3);
+}
+
+.animate{
+    width: 200px;
+    height: 200px;
+    border: 25px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 25px solid lightcoral;
+    
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+        
+    }
+    25%{
+        border-right: 25px solid lightcoral;
+    }
+    50%{
+        border-bottom: 25px solid lightcoral;
+    }
+    75%{
+        border-left: 25px solid lightcoral;
+    }
+    
+    100%{
+        transform: rotate(360deg);
+        border: 25px solid lightcoral;
+    }
+    
+}
