@@ -23,19 +23,11 @@ body{
         transform: rotate(0deg);
         
     }
-    25%{
-        border-right: 25px solid lightcoral;
-    }
-    50%{
-        border-bottom: 25px solid lightcoral;
-    }
-    75%{
-        border-left: 25px solid lightcoral;
-    }
+    
     
     100%{
         transform: rotate(360deg);
-        border: 25px solid lightcoral;
+        
     }
     
 }
