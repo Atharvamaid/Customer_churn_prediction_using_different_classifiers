@@ -1,2 +1,2 @@
 # Animation
-a basic animation of loading component
+a basic animation of loading component using CSS
