@@ -1,2 +1,1 @@
-# Animation
-a basic animation of loading component using CSS
+customer churn prediction using different classifiers
